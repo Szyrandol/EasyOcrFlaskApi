@@ -1,4 +1,4 @@
-As the name suggests its a simple/crude Flask API processing an image of a receipt and returning the lines representing items bought and a sum line at the end.
+As the name suggests its a simple/crude Flask Restful API processing an image of a receipt and returning the lines representing items bought and a sum line at the end.
 It requires installing:
   pytorch for OCR purposes,
   geforce cuda for OCR via GPU - it is noticably faster but unnecessary, disabling it is really easy just remove gpu=True from parameters list in ocr reader parameter initialisation list,
